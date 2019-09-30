@@ -1,0 +1,25 @@
+.Container{
+margin: 5px 400px 5px 500px;
+}
+
+.Maintext{
+border-top: solid 1px #000;
+}
+
+div.tip{
+	text-align: center;
+	padding: center;
+	width: 650px;
+	height: 30px;
+	background: #D0F3E8;
+	border-radius: 4px;
+}
+
+span.tip{
+font-weight: bold;
+}
+
+#gehaktbrood{
+	width: 30em;
+	height: 30em;
+}

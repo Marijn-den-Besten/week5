@@ -1,0 +1,10 @@
+.Maintext{
+	width: 500px;
+	height: 300px;
+
+	padding: 40px;
+	margin: 40px;
+	border: red;
+	border-style: dashed;
+	border-width: 20px;
+}
