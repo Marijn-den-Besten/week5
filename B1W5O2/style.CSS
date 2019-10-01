@@ -1,0 +1,10 @@
+body {
+	background-image: url("images/header_bg.jpg");
+}
+
+#logo{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}

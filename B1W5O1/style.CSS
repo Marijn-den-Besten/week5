@@ -1,5 +1,6 @@
 .Container{
 margin: 5px 400px 5px 500px;
+padding-top: 70px;
 }
 
 .Maintext{
@@ -22,4 +23,41 @@ font-weight: bold;
 #gehaktbrood{
 	width: 30em;
 	height: 30em;
+
+}
+
+header{
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	margin: 5px 400px 5px 500px;	
+}
+
+ul{
+	margin-left: 40px;
+}
+
+ul.links li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Courier;
+    color: #000000;
+    padding: 0 25px;
+}
+
+a{
+	border: solid 2px #000000;
+}
+
+ul li a:hover{
+	background-color: #4A4A49;
+	border: solid;
 }
