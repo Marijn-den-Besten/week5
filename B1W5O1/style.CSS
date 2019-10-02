@@ -5,13 +5,32 @@ padding-top: 70px;
 
 .Maintext{
 border-top: solid 1px #000;
+font-family: Roboto;
 }
 
-div.tip{
+div.tipgehaktbrood{
 	text-align: center;
 	padding: center;
 	width: 650px;
 	height: 30px;
+	background: #D0F3E8;
+	border-radius: 4px;
+}
+
+div.tipcarpaccio{
+	text-align: center;
+	padding: center;
+	width: 950px;
+	height: 30px;
+	background: #D0F3E8;
+	border-radius: 4px;
+}
+
+div.tipaardbei{
+	text-align: center;
+	padding: center;
+	width: 500px;
+	height: 60px;
 	background: #D0F3E8;
 	border-radius: 4px;
 }
@@ -21,6 +40,18 @@ font-weight: bold;
 }
 
 #gehaktbrood{
+	width: 30em;
+	height: 30em;
+
+}
+
+#carpaccio{
+	width: 50em;
+	height: 30em;
+
+}
+
+#aardbei{
 	width: 30em;
 	height: 30em;
 
@@ -48,7 +79,7 @@ ul.links li{
 ul li a{
     text-decoration: none;
     font-size: 22px;
-    font-family: Courier;
+    font-family: Roboto;
     color: #000000;
     padding: 0 25px;
 }
