@@ -1,10 +1,47 @@
 body {
 	background-image: url("images/header_bg.jpg");
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    height: 70px;
+    background: #FFF;
+    width: 100%;
+}
+
+ul {
+	margin-left: 1250px;
+    position: absolute;
+}
+
+li {
+	display: inline;
+	position: static;
 }
 
 #logo{
 	display: block;
-  margin-left: auto;
+  	margin-left: auto;
   margin-right: auto;
   margin-top: 20%;
+}
+
+.buttons{
+	margin: 20px 450px 5px 450px;
+}
+button{
+	background: transparent;
+	border: transparent;
+	margin: 5px;
+}
+
+span{
+	display: block;
+	color: grey;
+}
+
+.contact{
+	margin: 50px 450px 5px 450px;
+	color: grey;
 }
