@@ -1,5 +1,7 @@
 .Container{
-margin: 5px 400px 5px 500px;
+margin:0 auto;
+height: 300px;
+width: 500px;
 padding-top: 70px;
 }
 
@@ -91,4 +93,8 @@ a{
 ul li a:hover{
 	background-color: #4A4A49;
 	border: solid;
+}
+
+li{
+	margin-top: 10px;
 }

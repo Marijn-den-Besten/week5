@@ -10,12 +10,12 @@ header {
     width: 100%;
 }
 
-ul {
+.head ul {
 	margin-left: 1250px;
     position: absolute;
 }
 
-li {
+.head li {
 	display: inline;
 	position: static;
 }
@@ -41,7 +41,14 @@ span{
 	color: grey;
 }
 
-.contact{
-	margin: 50px 450px 5px 450px;
-	color: grey;
+.container {
+	margin-left: 60px;
+	margin-top: 20px;
+	padding: 60px;
+	color: #fff;
+}
+.headsub {
+ 	height: 70px;
+    background: #FFF;
+    width: 100%;
 }
